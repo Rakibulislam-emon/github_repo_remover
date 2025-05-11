@@ -1,30 +1,41 @@
-import { GoRepo } from "react-icons/go";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
+import { GoMarkGithub } from "react-icons/go";
 
 export default function Header() {
   return (
-    <header className="bg-gray-800 text-white shadow-md">
-      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <div className="flex items-center">
-          <GoRepo className="text-green-400 mr-2 text-xl" />
-          <Link to="/">
-            <h1 className="text-xl font-bold">RepoCleanr</h1>
+    <header className="bg-gray-800 shadow-md">
+      <div className="container mx-auto px-4">
+        <div className="flex justify-between items-center py-4">
+          <Link to="/" className="flex items-center space-x-2">
+            <GoMarkGithub className="text-2xl text-white" />
+            <span className="text-xl font-bold text-white">Repo Remover</span>
           </Link>
+          
+          <nav>
+            <ul className="flex space-x-6">
+              <li>
+                <Link to="/" className="text-gray-300 hover:text-white transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
+                  About
+                </Link>
+              </li>
+              <li>
+                <a 
+                  href="https://github.com/Rakibulislam-emon/github_repo_remover_react" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  GitHub
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav>
-          <ul className="flex space-x-6">
-            <li>
-              <Link to="/" className="hover:text-gray-300">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" className="hover:text-gray-300">
-                About
-              </Link>
-            </li>
-          </ul>
-        </nav>
       </div>
     </header>
   );
