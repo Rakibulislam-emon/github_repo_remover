@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { GoMarkGithub } from "react-icons/go";
+import { FaGithub } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-2">
-            <GoMarkGithub className="text-2xl text-white" />
+            <FaGithub className="text-2xl text-white" />
             <span className="text-xl font-bold text-white">Repo Remover</span>
           </Link>
           
