@@ -25,7 +25,7 @@ export default function Header() {
               </li>
               <li>
                 <a 
-                  href="https://github.com/Rakibulislam-emon/github_repo_remover_react" 
+                  href="https://github.com/Rakibulislam-emon/github_repo_remover" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white transition-colors"

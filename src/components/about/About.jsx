@@ -77,7 +77,7 @@ export default function About() {
             
             <div className="mt-8 text-center">
               <a 
-                href="https://github.com/Rakibulislam-emon/github_repo_remover_react" 
+                href="https://github.com/Rakibulislam-emon/github_repo_remover" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-300"
