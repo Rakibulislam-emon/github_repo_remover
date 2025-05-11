@@ -13,11 +13,11 @@ export default function About() {
           </h1>
           
           <div className="bg-gray-800 rounded-xl p-8 shadow-lg mb-10">
-            <h2 className="text-2xl font-semibold mb-4 text-green-400">Our Mission</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-green-400">My Mission</h2>
             <p className="text-gray-300 mb-6">
-              GitHub Repo Remover was created to help developers efficiently manage their GitHub repositories. 
+              I created GitHub Repo Remover to help developers efficiently manage their GitHub repositories. 
               As developers, we often create numerous repositories for testing, learning, or temporary projects 
-              that eventually clutter our GitHub accounts. Our tool makes it easy to clean up your GitHub 
+              that eventually clutter our GitHub accounts. This tool makes it easy to clean up your GitHub 
               profile by providing a simple, intuitive interface to manage and delete unwanted repositories.
             </p>
             
@@ -61,18 +61,18 @@ export default function About() {
                 </div>
                 <div>
                   <h3 className="font-medium text-lg text-white">Data Privacy</h3>
-                  <p className="text-gray-400">We never store your GitHub data</p>
+                  <p className="text-gray-400">I never store your GitHub data</p>
                 </div>
               </div>
             </div>
           </div>
           
           <div className="bg-gray-800 rounded-xl p-8 shadow-lg">
-            <h2 className="text-2xl font-semibold mb-4 text-green-400">Our Team</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-green-400">About the Developer</h2>
             <p className="text-gray-300 mb-6">
-              GitHub Repo Remover is developed by a passionate team of developers who understand 
-              the importance of maintaining a clean and organized GitHub profile. We're committed 
-              to creating tools that make developers' lives easier.
+              GitHub Repo Remover is a personal project developed by Rakibul Islam Emon. As a developer, 
+              I understand the importance of maintaining a clean and organized GitHub profile. 
+              I created this tool to make developers' lives easier, including my own.
             </p>
             
             <div className="mt-8 text-center">
