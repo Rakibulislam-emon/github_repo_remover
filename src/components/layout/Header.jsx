@@ -1,5 +1,5 @@
-import { Link } from "react-router";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router";
 
 export default function Header() {
   return (
@@ -10,23 +10,21 @@ export default function Header() {
             <FaGithub className="text-2xl text-white" />
             <span className="text-xl font-bold text-white">Repo Remover</span>
           </Link>
-          
+
           <nav>
             <ul className="flex space-x-6">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-white transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/about"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   About
                 </Link>
               </li>
               <li>
-                <a 
-                  href="https://github.com/Rakibulislam-emon/github_repo_remover" 
-                  target="_blank" 
+                <a
+                  href="https://github.com/Rakibulislam-emon/github_repo_remover"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
